@@ -49,6 +49,10 @@ body {
     text-shadow: 2px 2px 4px #393939;
 }
 
+/* Supprimer le soulignement hover */
+.navbar ul li::after {
+    display: none;
+}
 
 .navbar ul li a {
     font-size: 18px;
@@ -167,3 +171,4 @@ section {
     scroll-margin-top: 120px;
 
 }
+
